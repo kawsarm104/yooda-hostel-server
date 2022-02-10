@@ -19,7 +19,7 @@ const uri = process.env.MONGO_CONNECTION;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.get('/', (req, res) => {
-    res.send("server run kore beta...")
+    res.send("server run kore ...")
 })
 
 // add food api
